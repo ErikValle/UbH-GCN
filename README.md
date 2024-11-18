@@ -14,6 +14,15 @@ Emotion recognition plays a crucial role in enhancing the safety and enjoyment o
 - PyYAML, matplotlib, einops, sklearn, tqdm, tensorboardX, h5py
 - Run `pip install -e torchlight`
 
+# Installation via Conda
+- Run the following commands to create a new Conda environment.
+```bash
+conda env create --file=environment.yml
+conda activate UbH-GCN
+pip install -e torchlight
+```
+- Comment lines containing model_urls (7 and 56) in **/home/$USER/anaconda3/envs/UbH-GCN/lib/python3.9/site-packages/torchpack/io.py**
+
 ## Data Preparation
 
 ### AIDE
